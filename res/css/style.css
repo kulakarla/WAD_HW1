@@ -21,6 +21,7 @@ a:hover{
     font-size: 2em;
 }
 .header {
+    overflow: auto;
     padding: 1%;
     display: flex;
     justify-content: space-between;
@@ -48,6 +49,7 @@ div.posts{
     /*background-color: #dbd7da;*/
 }
 div.post{
+    overflow:auto;
     border-radius: 25px;
     background-color: #dbd7da;
     padding: 2%;
