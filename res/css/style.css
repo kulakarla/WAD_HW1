@@ -125,3 +125,10 @@ img{
     max-height: 100%;
 }
 
+.post > img + p{
+    font-weight: bold;
+}
+
+.post > img ~ p{
+    font-style: italic;
+}
