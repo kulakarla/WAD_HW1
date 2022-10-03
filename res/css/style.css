@@ -3,14 +3,24 @@
     box-sizing: border-box;
   }
 
-a{
+.nav a{
     text-decoration: none;
 }
 
-
-a:visited{
+.nav a:visited{
     color: black;
 }
+
+.box a{
+    text-decoration: none;
+    color: rgb(160, 215, 234);
+    font-weight: bold;
+}
+
+.box a:visited{
+    color: rgb(125, 201, 228);
+}
+
 a:hover{
     background-color: #dbd7da;
 }
@@ -45,11 +55,14 @@ p.thick {
 .box {
     margin: auto;
     width: 25%;
-    padding: 5%;
+    padding: 2%;
     display: flex;
+    justify-content: center;
     background-color: #b6afb4;
     border-radius: 25px;
 }
+
+
 
 section{
     margin-top: 10px;
